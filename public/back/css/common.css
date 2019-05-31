@@ -24,6 +24,10 @@ a:link,a:visited {
     margin-top: 150px;
 }
 
+.mt_20 {
+    margin-top: 20px;
+}
+
 .red {
     color: #A94442;
 }
@@ -80,6 +84,11 @@ a:link,a:visited {
     margin-left: 40px;
 }
 
+.lside .nav a.current {
+    background-color: #1D1F21;
+    border-left: 3px solid #069;
+}
+
 .lside .nav .child a {
     margin-left: 60px;
 }
@@ -123,3 +132,14 @@ a:link,a:visited {
     padding-left: 0;
 }
 
+/*路径导航*/
+.breadcrumb {
+    margin: 20px;
+}
+
+/*echarts*/
+.echart1,
+.echart2 {
+    width: 48%;
+    height: 400px;
+}
