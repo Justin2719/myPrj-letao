@@ -9,8 +9,23 @@
     list-style: none;
 }
 
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+a,
+a:hover,a:active,
+a:link,a:visited {
+    text-decoration: none;
+}
+
 .mt_150 {
     margin-top: 150px;
+}
+
+.red {
+    color: #A94442;
 }
 
 .panel .panel-heading {
@@ -20,3 +35,91 @@
     text-align: center;
     padding: 0;
 }
+
+/*侧边栏*/
+.lside {
+    width: 180px;
+    height: 100%;
+    background-color: #222D32;
+    z-index: 999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: all 1s;
+}
+.lside .title {
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    background-color: #367FA9;
+    text-align: center;
+    font-size: 25px;
+}
+.lside .info {
+    margin-top: 20px;
+    height: 180px;
+    text-align: center;
+}
+.lside .info img {
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+.lside .info p {
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+}
+.lside .nav a {
+    display: block;
+    color: white;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 40px;
+}
+
+.lside .nav .child a {
+    margin-left: 60px;
+}
+
+.lt-main {
+    padding-left: 180px;
+    padding-top: 50px;
+
+}
+
+.topBar {
+    width: 100%;
+    height: 50px;
+    background-color: #3C8DBC;
+    line-height: 50px;
+    padding-left: 180px;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 1s;
+}
+
+.topBar .icon_menu {
+    color: white;
+    padding-left: 20px;
+}
+.topBar .icon_logout {
+    color: white;
+    padding-right: 20px;
+}
+
+.lside.hidemenu {
+    left: -180px;
+    padding-left: 0;
+}
+.topBar.hidemenu {
+    padding: 0;
+}
+.lt-main.hidemenu {
+    padding-left: 0;
+}
+
