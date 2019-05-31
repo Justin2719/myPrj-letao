@@ -1,0 +1,22 @@
+/*登录页面样式*/
+.body_bg {
+    background-color: #222D32;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.mt_150 {
+    margin-top: 150px;
+}
+
+.panel .panel-heading {
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+    padding: 0;
+}
