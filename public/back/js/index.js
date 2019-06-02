@@ -1,8 +1,5 @@
 $(function () {
     
-    echart1();
-    echart2();
-    
     function echart1() {
         var myChart = echarts.init(document.querySelector(".echart1"));
 
@@ -76,6 +73,8 @@ $(function () {
         // 使用刚指定的配置项和数据显示图表。
         myChart.setOption(option);
     }
-    
+
+    echart1();
+    echart2();
     
 })

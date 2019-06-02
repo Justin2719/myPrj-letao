@@ -133,13 +133,16 @@ a:link,a:visited {
 }
 
 /*路径导航*/
-.breadcrumb {
-    margin: 20px;
-}
 
 /*echarts*/
 .echart1,
 .echart2 {
     width: 48%;
     height: 400px;
+}
+
+.table.table-bordered th,
+.table.table-bordered td {
+    vertical-align: middle;
+    text-align: center;
 }
